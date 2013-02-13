@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/main.m
+END
+ImageTargets-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/ImageTargets-Info.plist
+END
+ImageTargetsAppDelegate.mm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/ImageTargetsAppDelegate.mm
+END
+ImageTargets_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/ImageTargets_Prefix.pch
+END
+OverlayView.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/OverlayView.h
+END
+OverlayView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/OverlayView.mm
+END
+ImageTargets.entitlements
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/ImageTargets.entitlements
+END
+OverlayViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/OverlayViewController.h
+END
+ShaderUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/ShaderUtils.cpp
+END
+EAGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/EAGLView.h
+END
+EAGLView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/EAGLView.mm
+END
+OverlayViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/OverlayViewController.m
+END
+ShaderUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/ShaderUtils.h
+END
+ImageTargetsAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Puma_AR/!svn/ver/1/trunk/ImageTargets/ImageTargetsAppDelegate.h
+END

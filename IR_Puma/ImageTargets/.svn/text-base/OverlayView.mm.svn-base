@@ -1,0 +1,66 @@
+/*==============================================================================
+Copyright (c) 2010-2011 QUALCOMM Austria Research Center GmbH.
+All Rights Reserved.
+Qualcomm Confidential and Proprietary
+==============================================================================*/
+
+
+#import <QCAR/QCAR.h>
+#import <QCAR/CameraDevice.h>
+#import "OverlayView.h"
+#import "ImageTargetsAppDelegate.h"
+
+
+
+@implementation OverlayView
+
+
+// The user touched the screen
+- (void) touchesBegan: (NSSet*) touches withEvent: (UIEvent*) event
+{
+    UITouch* touch = [touches anyObject];
+    
+    if (1 == [touch tapCount]) {
+       // ((ImageTargetsAppDelegate *)[[UIApplication sharedApplication] delegate]).myAnimatedView.hidden = YES;
+        // Show camera control action sheet
+        /*UIActionSheet* actionSheet = [[[UIActionSheet alloc] initWithTitle:nil
+                                                                  delegate:self
+                                                         cancelButtonTitle:@"Cancel"
+                                                    destructiveButtonTitle:nil
+                                                         otherButtonTitles:
+                                       [NSString stringWithCString:menuEntries[0] encoding:NSASCIIStringEncoding],
+                                       [NSString stringWithCString:menuEntries[1] encoding:NSASCIIStringEncoding],
+                                       [NSString stringWithCString:menuEntries[2] encoding:NSASCIIStringEncoding],
+                                       [NSString stringWithCString:menuEntries[3] encoding:NSASCIIStringEncoding],
+                                       nil] autorelease];
+        
+        [actionSheet showInView:self];*/
+        //get list of document directories in sandbox 
+        
+
+    }
+}
+
+
+// UIActionSheetDelegate event handler
+- (void) actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    switch (buttonIndex) {
+        case 0:                 // Turn on camera torch
+            QCAR::CameraDevice::getInstance().setFlashTorchMode(true);
+            break;
+        case 1:                 // Turn off camera torch
+            QCAR::CameraDevice::getInstance().setFlashTorchMode(false);
+            break;
+        case 2:                 // Turn on camera autofocus
+            QCAR::CameraDevice::getInstance().startAutoFocus();
+            break;
+        case 3:                 // Turn off camera autofocus
+            QCAR::CameraDevice::getInstance().stopAutoFocus();
+            break;
+        default:
+            break;
+    }
+}
+
+@end
